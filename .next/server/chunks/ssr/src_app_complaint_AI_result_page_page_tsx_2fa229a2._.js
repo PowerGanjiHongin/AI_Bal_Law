@@ -105,6 +105,7 @@ const LANG_NAMES = {
 3. 문서 상단에 '소 장' 또는 '고 소 장' 제목을 크게 배치하세요.
 4. 당사자 인적사항, 청구취지(또는 고소취지), 청구원인(또는 범죄사실), 증거방법, 결론 순서로 작성하세요.
 5. 반드시 한국어로만 작성하며, 문체는 법정에서 사용하는 엄격하고 정중한 문체를 사용하세요.
+6. 절대 기입된 내용 외 다른 내용을 넣지 마세요.
 
 최종 결과물인 한국어 소장 전문만 출력하세요.`;
     console.log("암튼 응답은 했음");
@@ -191,12 +192,12 @@ function ResultPage() {
                                 className: "h-7 w-auto"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                lineNumber: 147,
+                                lineNumber: 148,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("button", {
@@ -216,30 +217,30 @@ function ResultPage() {
                                         d: "M15 19l-7-7 7-7"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 162,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 161,
                                     columnNumber: 13
                                 }, this),
                                 L.back
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 155,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                    lineNumber: 145,
+                    lineNumber: 146,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                lineNumber: 144,
+                lineNumber: 145,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
@@ -257,19 +258,19 @@ function ResultPage() {
                                                 className: "w-2 h-2 rounded-full bg-blue-400 animate-pulse inline-block"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 174,
                                                 columnNumber: 17
                                             }, this) : error ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("span", {
                                                 className: "w-2 h-2 rounded-full bg-red-400 inline-block"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                                lineNumber: 175,
+                                                lineNumber: 176,
                                                 columnNumber: 17
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("span", {
                                                 className: "w-2 h-2 rounded-full bg-green-400 inline-block"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 178,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("p", {
@@ -277,13 +278,13 @@ function ResultPage() {
                                                 children: loading ? "AI 분석 및 작성 중..." : error ? "오류 발생" : "소장 작성 완료"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 180,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("h1", {
@@ -291,13 +292,13 @@ function ResultPage() {
                                         children: docTitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 186,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                lineNumber: 170,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             !loading && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
@@ -311,12 +312,12 @@ function ResultPage() {
                                             children: "복사됨"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 192,
                                             columnNumber: 27
                                         }, this) : L.copy
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 191,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("button", {
@@ -325,7 +326,7 @@ function ResultPage() {
                                         children: L.download
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 193,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("button", {
@@ -334,19 +335,19 @@ function ResultPage() {
                                         children: L.print
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 197,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                lineNumber: 189,
+                                lineNumber: 190,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                        lineNumber: 169,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
@@ -361,20 +362,20 @@ function ResultPage() {
                                             className: "w-12 h-12 border-2 border-blue-500/30 rounded-full"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 208,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
                                             className: "w-12 h-12 border-2 border-blue-500 border-t-transparent rounded-full animate-spin absolute inset-0"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                            lineNumber: 208,
+                                            lineNumber: 209,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 207,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("p", {
@@ -385,20 +386,20 @@ function ResultPage() {
                                         " 정보를 바탕으로",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 212,
                                             columnNumber: 53
                                         }, this),
                                         "한국어 공식 소장을 생성하고 있습니다."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 211,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 205,
+                            lineNumber: 206,
                             columnNumber: 13
                         }, this) : error ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
                             className: "flex flex-col items-center justify-center py-24 gap-4",
@@ -408,7 +409,7 @@ function ResultPage() {
                                     children: "!"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 217,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("p", {
@@ -416,7 +417,7 @@ function ResultPage() {
                                     children: error
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 217,
+                                    lineNumber: 218,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("button", {
@@ -425,13 +426,13 @@ function ResultPage() {
                                     children: "다시 시도하기"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 218,
+                                    lineNumber: 219,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 216,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
                             className: "p-8 md:p-12",
@@ -442,22 +443,22 @@ function ResultPage() {
                                     children: result
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 229,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                                lineNumber: 227,
+                                lineNumber: 228,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 226,
+                            lineNumber: 227,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                        lineNumber: 203,
+                        lineNumber: 204,
                         columnNumber: 9
                     }, this),
                     !loading && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("div", {
@@ -467,18 +468,18 @@ function ResultPage() {
                             children: "⚠️ 본 문서는 AI가 생성한 초안입니다. 실제 제출 전 법률 전문가의 검토를 권장합니다."
                         }, void 0, false, {
                             fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                            lineNumber: 238,
+                            lineNumber: 239,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                        lineNumber: 237,
+                        lineNumber: 238,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                lineNumber: 168,
+                lineNumber: 169,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$same$2d$runtime$2f$dist$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["jsxDEV"])("style", {
@@ -490,13 +491,13 @@ function ResultPage() {
       `
             }, void 0, false, {
                 fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-                lineNumber: 245,
+                lineNumber: 246,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/complaint/AI_result_page/page.tsx",
-        lineNumber: 143,
+        lineNumber: 144,
         columnNumber: 5
     }, this);
 }

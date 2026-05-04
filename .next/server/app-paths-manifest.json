@@ -1,4 +1,6 @@
 {
+  "/complaint/AI_loding/page": "app/complaint/AI_loding/page.js",
+  "/complaint/AI_result_page/page": "app/complaint/AI_result_page/page.js",
   "/complaint/main_form/page": "app/complaint/main_form/page.js",
   "/page": "app/page.js"
 }
